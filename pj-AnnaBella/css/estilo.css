@@ -8,3 +8,15 @@ body {
 	width: 900px;
 	height: 500px;
 }
+
+#menu {
+	background: #c5c5b2;
+	padding: 18px; /*aplicando um espaçamento interno*/
+}
+
+a { /*formatando os links (usado no menu)*/
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
