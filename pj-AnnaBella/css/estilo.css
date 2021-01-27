@@ -19,6 +19,12 @@ body {
 	padding: 10px;
 }
 
+#contato {
+	background: #c5c5b2;
+	text-align: center;
+	padding: 10px;
+}
+
 a { /*formatando os links (usado no menu)*/
 	color: #4b566a;
 	text-decoration: none;
