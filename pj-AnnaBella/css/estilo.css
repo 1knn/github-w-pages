@@ -14,9 +14,18 @@ body {
 	padding: 18px; /*aplicando um espaçamento interno*/
 }
 
+#conteudo {
+	background: #e8e8d9;
+	padding: 10px;
+}
+
 a { /*formatando os links (usado no menu)*/
 	color: #4b566a;
 	text-decoration: none;
 	font-weight: bold;
 	padding: 5px;
+}
+
+.centralizar {
+	text-align: center;
 }
