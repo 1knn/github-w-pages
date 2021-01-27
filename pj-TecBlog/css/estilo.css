@@ -1,0 +1,11 @@
+/*LIMPAR AS FORMATAÇÕES PADRÕES*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size:1em;
+	font-family: "Trebuchet MS", Helvetica, Sans-serif;
+	background: #e6e6e6;
+}
