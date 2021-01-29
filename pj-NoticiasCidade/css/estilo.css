@@ -203,6 +203,41 @@ input.submit {
 }
 
 /*
+****Formatar imagens
+*/
+
+img {
+	border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+
+}
+
+
+/*
+****Formatar cabeçalhos
+*/
+
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3 {
+	background: #b10333;
+	color: #FFF;
+}
+
+.entrevista h3 {
+	background: #de003e;
+}
+
+/*
 ****Rodapé
 */
 #container-rodape {
