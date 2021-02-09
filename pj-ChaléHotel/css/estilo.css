@@ -18,7 +18,27 @@ body {
 }
 
 #topo {
+	position: relative;
 	background: #dbcd87;
 	height: 15.4em; /*aqui foi escolhido em para que a proporção das letras sejam iguais ao da div*/
 	min-height: 250px; /*não vai passar dessa altura mínima*/
+}
+/*tamanho proporcional*/
+#area-logo {
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	top: 0;
+	background: url(../img/topo-imagem-principal.png) no-repeat;
+	left: 0;
+
+}
+/*terá um tamanho fixo*/
+#area-menu {
+	position: absolute;
+	width: 450px;
+	height:250px;
+	background: url(../img/topo-imagem-lateral.png) no-repeat;
+	top:0;
+	right: 0;
 }
