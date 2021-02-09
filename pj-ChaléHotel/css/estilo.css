@@ -16,3 +16,9 @@ body {
 #container {
 	border: 1px solid red;
 }
+
+#topo {
+	background: #dbcd87;
+	height: 15.4em; /*aqui foi escolhido em para que a proporção das letras sejam iguais ao da div*/
+	min-height: 250px; /*não vai passar dessa altura mínima*/
+}
