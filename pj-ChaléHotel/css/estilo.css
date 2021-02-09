@@ -1,0 +1,18 @@
+/*limpando*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*estrutura site
+*/
+
+body {
+	font-family: Helvetica, "Trebuchet", sans-serif;
+	background: #fff url(../img/bg.png);
+	margin: 15px;
+}
+
+#container {
+	border: 1px solid red;
+}
