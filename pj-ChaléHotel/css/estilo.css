@@ -74,3 +74,19 @@ body {
 	font-size: 0.7em;
 	color: #8b8448;
 }
+
+#menu-locais .locais {
+	float:left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.reserva {
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+	float: right;
+}
