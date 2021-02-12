@@ -26,6 +26,18 @@ body {
 	height: 15.4em; /*aqui foi escolhido em para que a proporção das letras sejam iguais ao da div*/
 	min-height: 250px; /*não vai passar dessa altura mínima*/
 }
+
+.logo a {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	background: url(../img/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+	text-indent: -9000px; /*movendo o texto para fora da tela*/
+}
+
 /*tamanho proporcional*/
 #area-logo {
 	position: absolute;
@@ -34,6 +46,7 @@ body {
 	top: 0;
 	background: url(../img/topo-imagem-principal.png) no-repeat;
 	left: 0;
+	z-index: 1; /*aparecer antes do menu, ficar sob ele*/
 
 }
 /*terá um tamanho fixo*/
@@ -44,4 +57,5 @@ body {
 	background: url(../img/topo-imagem-lateral.png) no-repeat;
 	top:0;
 	right: 0;
+	z-index: 2;
 }
