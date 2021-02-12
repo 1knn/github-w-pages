@@ -76,6 +76,7 @@ body {
 }
 
 #menu-locais .locais {
+	line-height: 2.1em;
 	float:left;
 }
 
