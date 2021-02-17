@@ -132,11 +132,15 @@ ul#navegacao a:hover {
 #area-principal {
 	float: left;
 	width: 50%;
+	padding: 15px 0px;
 	background: url(../img/bg-area-principal.png) top left repeat-x;
 }
+
 #area-lateral {
 	float: right;
 	width: 50%;
+	padding: 20px 0px;
+	background: url(../img/bg-area-lateral.png) top left repeat-x;
 }
 
 .conteudo {
