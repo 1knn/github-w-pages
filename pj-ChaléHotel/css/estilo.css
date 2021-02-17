@@ -14,7 +14,7 @@ body {
 }
 
 #container {
-	background: #ede9cc url(../img/bg-container.png)top center repeat-y;
+	background: #ede9cc url(../img/bg-container.png)top center repeat-y ;
 	margin: 0 auto; /*centralizando o container*/
 	min-width:740px;
 	max-width:1180px; /*determinado pelo tamanho das imagens*/
@@ -132,6 +132,7 @@ ul#navegacao a:hover {
 #area-principal {
 	float: left;
 	width: 50%;
+	background: url(../img/bg-area-principal.png) top left repeat-x;
 }
 #area-lateral {
 	float: right;
@@ -142,4 +143,8 @@ ul#navegacao a:hover {
 	margin: 0 auto;
 	width: 90%;
 	background: 
+}
+
+#rodape {
+	clear: both;
 }
