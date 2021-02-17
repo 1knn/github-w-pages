@@ -126,3 +126,19 @@ ul#navegacao a:hover {
 	height: 164px;
 	float: right;
 }
+
+/*area de conteúdos 
+********************/
+#area-principal {
+	float: left;
+	width: 50%;
+}
+#area-lateral {
+	float: right;
+	width: 50%;
+}
+
+.conteudo {
+	margin: 0 auto;
+	width: 90%;
+}
