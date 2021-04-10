@@ -1,0 +1,109 @@
+﻿@model MileniApp.Models.Colaborador
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+
+@using (Html.BeginForm())
+{
+
+    @Html.ValidationSummary(true)
+<fieldset>
+
+    <legend>Cadastrar Colaborador</legend>
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.ColabId)
+    </div>
+    <div>
+        @Html.EditorFor(m => m.ColabId)
+        @Html.ValidationMessageFor(m => m.ColabId, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.NomeColab)
+    </div>
+    <div>
+        @Html.EditorFor(m => m.NomeColab)
+        @Html.ValidationMessageFor(m => m.NomeColab, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.FuncaoColab)
+    </div>
+    <div>
+        @Html.EditorFor(m => m.FuncaoColab)
+        @Html.ValidationMessageFor(m => m.FuncaoColab, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.NascColab)
+    </div>
+    <div>
+        @Html.EditorFor(m => m.NascColab)
+        @Html.ValidationMessageFor(m => m.NascColab, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.ObsColab)
+    </div>
+    <div>
+        @Html.TextAreaFor(m => m.ObsColab)
+        @Html.ValidationMessageFor(m => m.ObsColab, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.EmailColab)
+    </div>
+    <div>
+        @Html.EditorFor(m => m.EmailColab)
+        @Html.ValidationMessageFor(m => m.EmailColab, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.LoginColab)
+    </div>
+    <div>
+        @Html.EditorFor(m => m.LoginColab)
+        @Html.ValidationMessageFor(m => m.LoginColab, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.SenhaColab)
+    </div>
+    <div>
+        @Html.PasswordFor(m => m.SenhaColab)
+        @Html.ValidationMessageFor(m => m.SenhaColab, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+
+    <div class="col-sm-2">
+        @Html.LabelFor(m => m.ConfSenha)
+    </div>
+    <div>
+        @Html.PasswordFor(m => m.ConfSenha)
+        @Html.ValidationMessageFor(m => m.ConfSenha, "", new { @class = "text-danger" })
+    </div>
+
+    <br />
+    <input type="submit" value="Cadastrar" />
+
+</fieldset>
+    <br />
+}
+@Html.ActionLink("Cancelar", "Index", "Home")
